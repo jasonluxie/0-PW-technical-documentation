@@ -8,7 +8,6 @@
 }
 
 .navbar {
-    /* background-color: lightpink; */
     position: fixed;
     border-right: solid;
     border-color: #a9a9a9;
@@ -16,7 +15,7 @@
     height: 100%;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .navbar {
         width: 10vw;
     }
@@ -51,7 +50,7 @@ li a {
     text-decoration: none;
     padding: 1rem 5rem;
     padding-left: 4rem;
-    border: 1px solid #a9a9a9;
+    outline: 1px solid #a9a9a9;
 }
 
 .main {
