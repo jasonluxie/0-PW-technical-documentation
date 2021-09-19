@@ -14,9 +14,11 @@
     width: 20vw;
     height: 100%;
 }
+
 #list-one {
     border-top: 2px solid #a9a9a9;
 }
+
 #list-five {
     border-bottom: 2px solid #a9a9a9;
 }
@@ -71,6 +73,7 @@ p {
 
 code {
     background-color: #e5e4e2;
+    color: rgb(50, 131, 224);
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
